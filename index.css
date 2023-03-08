@@ -1,0 +1,29 @@
+@keyframes backgroundColorTransition
+{
+    from {background-color: #6367fd;}
+    to {background-color: #c518ec;}
+}
+
+body
+{
+    animation-name: backgroundColorTransition;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+h1, h2, footer
+{
+    text-align: center;
+}
+
+a
+{
+    color: black;
+}
+
+a:visited
+{
+    color: yellow;
+}
