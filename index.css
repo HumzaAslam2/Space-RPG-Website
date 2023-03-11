@@ -1,29 +1,164 @@
-@keyframes backgroundColorTransition
-{
-    from {background-color: #6367fd;}
-    to {background-color: #c518ec;}
-}
-
 body
 {
-    animation-name: backgroundColorTransition;
-    animation-duration: 5s;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    text-align: center;
+    margin: 0;
+    font-family: 'Vollkorn', serif;
+    color: darkslategrey;
 }
 
-h1, h2, footer
+h1
 {
-    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+    padding: 10px 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h2
+{
+    color: whitesmoke;
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h3
+{
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+p
+{
+    line-height: 2;
 }
 
 a
 {
-    color: black;
+    text-decoration: none;
 }
 
-a:visited
+hr
 {
-    color: yellow;
+    border: dotted #add2e4 3px;
+    border-bottom: 0;
+    width: 4%;
+    margin: 30px auto;
+}
+
+nav
+{
+    background-color: olivedrab;
+}
+
+nav ul
+{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+nav li
+{
+    display: inline-block;
+    padding: 15px 0;
+}
+
+nav a
+{
+    color: azure;
+    padding: 20px;
+}
+
+nav a:hover
+{
+    background-color: olive;
+}
+
+main
+{
+    background-color: #ECF2FF;
+    padding: 20px 0;
+}
+
+footer
+{
+    background-color: turquoise;
+    padding: 15px;
+}
+
+.title-section
+{
+    background-color: #1e2121;
+    padding: 100px 0;
+    position: relative;
+}
+
+.stars
+{
+    width: 3%;
+    position: absolute;
+}
+
+.star-class-1
+{
+    top: 40px;
+    right: 80px;
+}
+
+.star-class-2
+{
+    top: 10px;
+    left: 20px;
+}
+
+.star-class-3
+{
+    right: 400px;
+    bottom: 35px;
+}
+
+.star-class-4
+{
+    bottom: 40px;
+    left: 80px;
+}
+
+.star-class-5
+{
+    top: 10px;
+    left: 250px;
+}
+
+.galaxy-img
+{
+    border-radius: 5%;
+}
+
+.space-rpg-link
+{
+    color: #4ea2ca;
+}
+
+.sales-pitch
+{
+
+}
+
+.game-reason-list
+{
+    list-style: none;
+}
+
+.game-reason-list li
+{
+    line-height: 2;
+}
+
+.copyright
+{
+    margin: 0 auto;
 }

@@ -6,28 +6,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Space RPG</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Vollkorn&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>Space RPG</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="title-section">
+                <h1>Space RPG</h1>
+                <h2>a new, revolutionary text-based game</h2>
+                <img class="stars star-class-1" src="stars1.png" alt="stars-type-1-img">
+                <img class="stars star-class-2" src="stars1.png" alt="stars-type-1-img">
+                <img class="stars star-class-3" src="stars1.png" alt="stars-type-1-img">
+                <img class="stars star-class-4" src="stars2.png" alt="stars-type-2-img">
+                <img class="stars star-class-5" src="stars3.png" alt="stars-type-3-img">
+            </div>
         </header>
-        <hr>
         <main>
-            <img src="Space.jpg" alt="An image of a nebula">
-            <p>This website gives access to a new text-based RPG where you explore different planets as a space ambassador.</p>
-            <p><a href="Space RPG.exe">Space RPG</a></p>
-            <h2>Reasons to play this game</h2>
-            <ul>
-                <li>Even though text-based games are a thing of the past, the simplicity of the game can still be appreciated by a lot of people.</li>
-                <li>This game is a classic type RPG (eg. levels, combat, party members).</li>
-                <li>What's special about this game is that, compared to other text-based games, is procedurally-generated.</li>
-                <li>This game is entirely written in C#, one of the most powerful programming langauges out there.</li>
-            </ul>
+            <div class="intro">
+                <img class="galaxy-img" src="galaxy.jpeg" alt="galaxy-img">
+                <p>This website gives access to a new text-based RPG where you explore different planets as a space ambassador.</p>
+                <a class="space-rpg-link" href="Space RPG.exe">Space RPG</a>
+            </div>
+            <hr>
+            <div class="sales-pitch">
+                <h3>Reasons to play this game</h3>
+                <ul class="game-reason-list">
+                    <li>Even though text-based games are a thing of the past, the simplicity of the game can still be appreciated by a lot of people.</li>
+                    <li>This game is a classic type RPG (eg. levels, combat, party members).</li>
+                    <li>What's special about this game is that, compared to other text-based games, is procedurally-generated.</li>
+                    <li>This game is entirely written in C#, one of the most powerful programming langauges out there.</li>
+                </ul>
+            </div>
         </main>
-        <hr>
         <footer>
-            <p><a href="about.html">About</a></p>
-            <p>@ Nebula Games Inc.</p>
+            <p class="copyright">@ Humza Aslam at Nebula Games Inc.</p>
         </footer>
     </body>
 </html>
